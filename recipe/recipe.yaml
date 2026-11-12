@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.1.2"
   python_min: "3.12"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/conda-pyproject-toml/conda_pyproject_toml-${{ version }}.tar.gz
-  sha256: 02d3875ac666a72da3fe4423aa2817996133df01aff303072152591b1324d52d
+  sha256: ed75adc8ea4f2e0df332cd0dbcb376425f325316e6825f4541a5fc5c1fbdbd61
 
 build:
   noarch: python
